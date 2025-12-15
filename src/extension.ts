@@ -67,10 +67,14 @@ export function activate(context: vscode.ExtensionContext) {
 }
 
 export function countWords(text: string): number {
-    if (text == null) return 0;
+    if (text === null) {
+        return 0;
+    }
 
     const cleaned = text.trim();
-    if (cleaned.length === 0) return 0;
+    if (cleaned.length === 0) {
+        return 0;
+    }
 
     // Split on any whitespace sequence
     const words = cleaned.split(/\s+/);

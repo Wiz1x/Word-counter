@@ -77,7 +77,8 @@ This is a test
 ```
 
 - Общий счёт: `8 слов` — будет показан в статус-баре и командой `Count Words`.
-- Если выделить `Hello world`, статус-бар покажет `2/8 слов`.
+- Если выделить `Hello world`,cd /Users/wiz1x/Documents/Sdt/Lab3/word-counter
+git remote -v статус-бар покажет `2/8 слов`.
 
 ## Замечания
 
